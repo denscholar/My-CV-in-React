@@ -7,15 +7,15 @@ const Experience = ({ title }) => {
                 <h6 style={{ fontWeight: 'bold', marginBottom: '20px' }}>
                     <strong>{title}</strong>
                 </h6>
-                <div className="row" style={{marginTop: '20px'}}>
-                    <div className="col-sm-6 col-md-4">
+                <div className="row">
+                    <div className="col-sm-6 col-md-4" style={{marginTop: '20px'}}>
                         <p className="teal year-exp white-text" style={{padding: '5px'}}>
                             August <strong>2020</strong> - April <strong>2021</strong>
                         </p>
                     </div>
                     <div className="col-sm-6 col-md-8">
                         <blockquote className='no-pad'>
-                            <h6 className="no-pad mt-bottom">
+                            <h6 className="no-pad" style={{marginTop: '50x'}}>
                                 <p style={{fontWeight: 'bolder', paddingBottom: '15px'}}>Uplanit Ltd, UK</p>
                                 <strong style={{fontSize:'15px', fontStyle: 'italic', textDecoration: 'underline'}}>Junior Software Developer - Remote</strong>
                             </h6>
@@ -30,7 +30,7 @@ const Experience = ({ title }) => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-sm-6 col-md-4">
+                    <div className="col-sm-6 col-md-4" style={{marginTop: '20px'}}>
                         <p className="teal year-exp white-text" style={{padding: '5px'}}>
                             Jan. <strong>2020</strong> - July <strong>2020</strong>
                         </p>
@@ -52,7 +52,7 @@ const Experience = ({ title }) => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-sm-6 col-md-4">
+                    <div className="col-sm-6 col-md-4" style={{marginTop: '20px'}}>
                         <p className="teal year-exp white-text" style={{padding: '5px'}}>
                             August <strong>2019</strong> - Sept. <strong>2019</strong>
                         </p>
