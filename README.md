@@ -1,5 +1,4 @@
-# Getting Started with Create React App
-This my curriculum vitae built with React. Your feedback will be very appreciated. 
+# My curriculum vitae built with React. Your feedback will be very appreciated. 
 
 Third Party library used.
 1. Material UI
