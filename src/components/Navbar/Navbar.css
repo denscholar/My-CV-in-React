@@ -1,0 +1,41 @@
+body{
+  background-color: #fff;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+i {
+  margin-right: 10px;
+}
+.navbar-logo {
+  padding: 15px;
+  color: #fff;
+  pointer-events: none;
+}
+
+.navbar-mainbg {
+  padding: 0px;
+}
+#navbarSupportedContent{
+  overflow: hidden;
+  position: relative;
+}
+
+
+.fas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+a:hover{
+  color: white;
+}
+
+.nav-item:hover{
+  background-color: #F44336;
+}
